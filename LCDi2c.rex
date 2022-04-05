@@ -1,20 +1,20 @@
 /*--------------------------------------------------------------------*/
 /*                                                                    */
-/*                 LCD_i2x.rex				                          */
+/*                 LCD_i2x.rex				              */
 /*                                                                    */
 /* This example is a driver for a 16x2 LC display with HD44780 chip   */
-/* and I2C 8574 backpack. However, the driver is also designed to 	  */
-/* use a 20x4 display. Only the commented out parts of 				  */
-/* the routine "printline" have to be changed.						  */
+/* and I2C 8574 backpack. However, the driver is also designed to     */
+/* use a 20x4 display. Only the commented out parts of 		      */
+/* the routine "printline" have to be changed.			      */
 /*                                                                    */
-/* public routines: 												  */
-/* 1) setup															  */
-/* 2) init															  */
-/* 3) printline [String , line]										  */
-/* 4) clear															  */
+/* public routines: 						      */
+/* 1) setup							      */
+/* 2) init							      */
+/* 3) printline [String , line]					      */
+/* 4) clear						              */
 /*                                                                    */
-/* setup and init are absolutely necessary and must be executed		  */
-/* once at the beginning!!!											  */
+/* setup and init are absolutely necessary and must be executed	      */
+/* once at the beginning!!!					      */
 /*--------------------------------------------------------------------*/
 
 
